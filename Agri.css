@@ -1,0 +1,196 @@
+*body{
+    margin: 0;
+    padding: 0;   
+}
+body{
+    background-color: rgb(183, 230, 248);
+
+}
+.contener{
+    
+    width:100vw;
+    height: 100vh;
+    display: grid ;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: 100px 1fr  1fr 1fr 50px;
+    position: relative;
+ 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    background: black;
+    background-size: cover;
+    justify-content: end;
+    box-shadow: -10px 10px 10px rgb(26, 25, 25);
+
+}
+.header a{
+    
+    size: 20px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.header li{
+    
+    display: flex;
+    position: relative;
+  
+}
+.header li a{
+    padding: 10px 5px;
+    color: aliceblue;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;   
+  
+}
+.header li a:hover{
+    background-image: linear-gradient(rgb(238, 178, 223),rgb(207, 42, 119),rgb(187, 11, 163));
+    transition: 1s;
+}
+.header h1{
+    margin-right: 50px;
+}
+.header img{
+    margin-right: 250px;
+}
+.co1{
+    grid-row-start: 2;
+    grid-row-end: span 2 ;
+    grid-column-start: 1;
+    grid-column-end:3;
+}
+.div12{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+}
+.header a{
+    
+    size: 20px;
+    margin-right: 40px;
+    margin-top: 50px;
+}
+button{
+    
+    padding:10px  25px ;
+    background-color: rga(0,136,169,1);
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(49, 125, 224);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: space-between;
+    display: flex;
+    color: rgb(241, 246, 248);
+    
+}
+button:hover{
+    background-color: rgb(184, 17, 162);
+}
+.div12{
+   
+    margin-top: 20px; 
+    display: inline-block;
+    background-color: black;
+}
+
+ .div12 li{
+     list-style: none;
+ }
+
+.div12 img,.center{
+   float: right;
+}
+
+.center{
+   margin-top: 50px;
+   padding-right:20% ;  
+}
+
+.center li,address{
+   color: rgb(246, 241, 248);
+}
+
+.copy{
+   color: aliceblue;
+}
+
+.left{
+   float: left;
+   list-style: none;
+   margin-top: 40px;
+}
+
+.left li,a{
+   color: rgb(192, 49, 5);
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+}
+
+.left li:hover{
+   background-color: rgb(240, 48, 182);
+   transition: 1s;
+
+}
+
+.left fieldset{
+    
+    margin: 0px 0px 0px 10px;
+    background-color: aliceblue; 
+    box-shadow: -10px 10px 10px rgb(26, 25, 25);
+    background-image: linear-gradient(rgba(242, 247, 244, 0.7),rgba(244, 252, 248, 0.7),rgba(11, 65, 44, 0.7));
+    
+}
+.left{
+    margin-top: 20px;
+}
+.raght{
+    margin-top: 20px;
+}
+.raght fieldset{
+    background-color: antiquewhite;
+    
+    box-shadow: -10px 10px 10px rgb(26, 25, 25);
+    background-image: linear-gradient(rgba(242, 247, 244, 0.7),rgba(244, 252, 248, 0.7),rgba(11, 65, 44, 0.7));
+    
+}
+.backgraoun{
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(58, 63, 59, 0.7),rgba(42, 43, 42, 0.7),rgba(17, 65, 35, 0.7)),url(imag/New/agri.jpg);
+}
+.backgraoun p{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+}
+.backgraoun h3{
+    color: aliceblue;
+    text-align: center;
+}
+.dip{
+    margin-top: 50px;
+    border: none;
+    border-radius: 20px;
+
+}
+.dip h3{
+    color: rgb(5, 5, 5);
+    text-align: center;
+}
+.dip p{
+    color: rgb(12, 12, 12);
+    font-family: 'Akshar', sans-serif;
+    text-align: center;
+    
+}

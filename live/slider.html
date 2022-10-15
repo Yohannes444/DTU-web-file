@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+
+
+    <title>slider</title>
+</head>
+<body>
+   <input type="text" name="abe" id="abe">
+<input type="button" value="fact" onclick="my()">
+ 
+
+    <script>
+        // const zzz=[[0,"ve",3,4],[2,4,56,5],[2,3,22,33],[23,44,55]];
+        // const ddd=[12,33,44,55];
+        // ddd.splice(2,1,3,4);
+        // console.log(ddd)
+
+
+   
+        // console.table(zzz);
+        
+
+        // let factoriyal=1;
+        // let n=5;
+        // for(i=1;i<=n;i++){
+        //     factoriyal=factoriyal*i;
+        //     console.log(factoriyal);
+           
+        // }
+        // document.write(factoriyal)
+
+
+let NUM= document.getElementById("abe");
+let eee= () => {
+    let fact=1;
+    console.log(parseInt(NUM.value));
+    for(i=1; i<=parseInt(NUM.value); i++){
+        fact*=i;
+    }
+    console.log(fact);
+}
+        
+        
+
+
+
+       
+    </script>
+</body>
+</html>

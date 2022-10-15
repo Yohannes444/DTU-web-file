@@ -1,0 +1,263 @@
+*body{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    background-color: rgb(183, 230, 248);
+
+}
+.contener{
+    
+    width:100vw;
+    height: 100vh;
+    display: grid ;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-template-rows: 100px 1fr  1fr 1fr 100px;
+    position: relative;
+    
+
+
+
+    
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    box-shadow: -10px 10px 10px rgb(26, 25, 25);
+    
+}
+.co1{
+    grid-row-start: 2;
+    grid-row-end: span 2 ;
+    grid-column-start: 1;
+    grid-column-end:3;
+}
+
+.div12{
+    grid-column-start: 1;
+    grid-column-end: 4;   
+}
+
+.header{
+    position: absolute;
+    height: 150px;
+    background-color: black;
+    justify-content: space-between;
+    box-shadow: -10px 10px 10px rgb(26, 25, 25);
+    width: 100%;
+    float: right;
+    
+    
+
+}
+.header a{
+    
+    size: 20px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.header li{
+    
+    display: flex;
+    position: relative;
+  
+}
+.header li a{
+    margin-top: 100px;
+    padding: 5px 5px;
+    color: aliceblue;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;   
+  
+}
+.header li a:hover{
+    background-image: linear-gradient(rgb(140, 6, 145),rgb(177, 11, 168),rgb(148, 5, 117));
+    transition: 2s;
+}
+.header h1{
+    margin-right: 50px;
+}
+.header img{
+    margin-right: 250px;
+}
+
+
+button{
+    
+    padding:10px  25px ;
+    background-color: rga(0,136,169,1);
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(49, 125, 224);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: space-between;
+    display: flex;
+    color: rgb(241, 246, 248); 
+}
+
+button:hover{
+    background-color: rgb(184, 17, 162);
+}
+
+.div12{
+    position:relative;
+    margin-top: 2000px; 
+    display: inline-block;
+    background-color: black;
+}
+
+
+ .div12 li{
+     list-style: none;
+
+ }
+.div12 img,.center{
+   
+   float: right;
+}
+.center{
+   margin-top: 50px;
+   padding-right:20% ;
+   
+}
+.center li,address{
+   color: rgb(15, 15, 15);
+}
+.copy{
+   color: rgb(3, 3, 3);
+}
+.left{
+   float: left;
+   list-style: none;
+   margin-top: 40px;
+}
+.left li,a{
+   color: rgb(192, 49, 5);
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+}
+.left li:hover{
+   background-color: rgb(240, 48, 182);
+   transition: 1s;
+
+}
+
+
+
+.innovetion{
+    justify-content: space-between;
+    display: flex;
+   
+}
+
+.conts{
+    background-image:linear-gradient(rgba(22, 41, 82, 0.6),rgba(18, 18, 19, 0.7),rgba(3, 46, 88, 0.6));
+    border: none;
+    border-radius: 20px;
+    font-family: rubik glitch;
+    
+
+
+}
+.innovetion video{
+    margin-bottom: 150px;
+}
+
+.innovetion p{
+    color: aliceblue;
+}
+
+
+
+.slider{
+    margin: 30px;
+    overflow: hidden;
+}
+.slider figure{
+    background-color: rgba(rgb(7, 48, 2), green, rgb(31, 221, 79), 0.6);
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slid infinite;
+
+}
+
+.slider figure img{
+    
+    clip-path: polygon(90% 0, 9% 100%, 100% 99%, 99% 10%, 0 89%, 0 98%, 0 0);
+    float: left;
+    width: 20%;
+    
+}
+
+@keyframes slid{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left:-100%;
+    }
+    50%{
+       left:-200%;
+    }
+    70%{
+        left:-200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+        left:-300;
+    }
+    100%{
+        left:-400;
+    }
+}
+
+.wel{
+    margin-top:50px ;
+   float: right;
+   border: none;
+   border-radius: 20px;
+   background-image:linear-gradient(rgba(20, 17, 61, 0.7),rgba(18, 11, 68, 0.7),rgba(96, 182, 231, 0.7));
+
+}
+.wel h3{
+    text-align: center;
+}
+.wel2 h3{
+    color: aliceblue;
+    text-align: center;
+}
+.wel2{
+    float: left;
+    margin-top: 30px;
+    border: none;
+    border-radius: 20px;
+    background-image:linear-gradient(rgba(20, 17, 61, 0.7),rgba(18, 11, 68, 0.7),rgba(96, 182, 231, 0.7)),url(imag/im2/top3.png);
+}
+.wel2 p{
+    color: aliceblue;
+}
+
+
